@@ -9,8 +9,11 @@ Locale=en-US
 PORT=443
 SSL=on
 CLIENT_SESSION_KEEP_ALIVE=true
-uid=${SNOWFLAKE_USERNAME}
-pwd=${SNOWFLAKE_PASSWORD}
-server=${SNOWFLAKE_SERVER}
-database=${SNOWFLAKE_DATABASE}
+Server=
+Database=
+Schema=
+Warehouse=
+Role=
+uid=
+pwd=
 " > ${ODBCSYSINI}/odbc.ini
